@@ -33,7 +33,6 @@
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <!-- main style css link -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
 
@@ -282,8 +281,6 @@
                     <textarea name="message" class="form--control" placeholder="Write Here ..." required></textarea>
                 </div>
                 <div class="col-xl-12 col-lg-12 form-group text-center">
-                    <div class="g-recaptcha" id="rcaptcha"  data-sitekey="6Lf5_jopAAAAAA1J6CamL5p__oazB8-4cj7XzzR3c"></div>
-                    <span id="captcha" style="color:red" /></span> 
                     <button type="submit" class="btn--base mt-20">Send Now <i class="fas fa-arrow-right ml-2"></i></button>
                 </div>
             </div>
@@ -436,20 +433,6 @@
     </script>
     <script type="text/javascript">
          console.log('load'); //fixme
-         function get_action(form) {
-            var v = grecaptcha.getResponse();
-            if(v.length == 0)
-            {
-                document.getElementById('captcha').innerHTML="You can't leave Captcha Code empty";
-                return false;
-            }
-            else
-            {
-                document.getElementById('captcha').innerHTML="Captcha completed";
-                return true; 
-            }
-        }
-
         window.onload = function() {
             document.getElementById('contact-form').addEventListener('submit', function(event) {
                 console.log('sent'); //fixme
@@ -465,4 +448,5 @@
         }
     </script>
 </body>
+
 </html>
