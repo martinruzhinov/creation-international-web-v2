@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from themeim.com/demo/softim/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 23 Dec 2023 21:00:17 GMT -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Softim - It Solution Html Template</title>
+    <title>Creation International</title>
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
@@ -15,7 +14,7 @@
     <!-- bootstrap css link -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- favicon -->
-    <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
     <!-- swipper css link -->
     <link rel="stylesheet" href="assets/css/swiper.min.css">
     <!-- lightcase css links -->
@@ -59,13 +58,13 @@
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     Start Header
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<header class="header-section three">
+<header class="header-section two">
     <div class="header">
         <div class="header-bottom-area">
             <div class="container custom-container">
                 <div class="header-menu-content">
                     <nav class="navbar navbar-expand-xl p-0">
-                        <a class="site-logo site-title" href="index.html"><img src="assets/images/logo-three.png" alt="site-logo"></a>
+                        <a class="site-logo site-title" href="index.html"><img src="assets/images/logo.svg" alt="site-logo"></a>
                         <button class="navbar-toggler d-block d-xl-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="toggle-bar"></span>
@@ -73,14 +72,7 @@
                         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                             <ul class="navbar-nav main-menu">
                                 <li class="menu_has_children">
-                                    <a href="#0">Home <i class="las la-angle-down"></i></a>
-                                    <ul class="sub-menu">
-                                        <li><a href="index.html">Home One</a></li>
-                                        <li><a href="index-two.html">Home Two</a></li>
-                                        <li><a href="index-three.html">Home Three</a></li>
-                                        <li><a href="index-four.html">Home Four</a></li>
-                                        <li><a href="index-five.html">Home Five</a></li>
-                                    </ul>
+                                    <a href="index.html">Home</a>
                                 </li>
                                 <li><a href="about.html">About</a></li>
                                 <li class="menu_has_children">
@@ -210,7 +202,7 @@
                     </div>
                     <div class="contact-content">
                         <h3 class="title">Visit Our Office</h3>
-                        <p>72 Main Drive, Calibry, FL</p>
+                        <p>St.George 23, Kostenets 2030</p>
                     </div>
                 </div>
             </div>
@@ -223,7 +215,7 @@
                     </div>
                     <div class="contact-content">
                         <h3 class="title">Call Us</h3>
-                        <p><a href="tel:19006963600">+1 (900) 696 3600</a> </p>
+                        <p><a href="tel:359877370745">+359877370745</a> </p>
                     </div>
                 </div>
             </div>
@@ -236,7 +228,7 @@
                     </div>
                     <div class="contact-content">
                         <h3 class="title">Mail Us</h3>
-                        <p><a href="https://themeim.com/cdn-cgi/l/email-protection#e9"><span class="__cf_email__" data-cfemail="285b474e5c4145685149404747064b4745">[email&#160;protected]</span></a></p>
+                        <p><span class="__cf_email__" data-cfemail="285b474e5c4145685149404747064b4745">martin@creationinternational.co</span></a></p>
                     </div>
                 </div>
             </div>
@@ -259,24 +251,24 @@
         <img src="assets/images/element/element-74.png" alt="element">
     </div>
     <div class="container">
-        <form class="contact-form">
+        <form class="contact-form" id="contact-form">
             <div class="row justify-content-center mb-25-none">
                 <div class="col-xl-6 col-lg-6 form-group">
                     <label>Enter Name</label>
-                    <input type="text" name="name" class="form--control" placeholder="Jhon david smith">
+                    <input type="text" name="name" class="form--control" placeholder="Jhon david smith" required>
                 </div>
                 <div class="col-xl-6 col-lg-6 form-group">
                     <label>Email Address</label>
-                    <input type="email" name="email" class="form--control" placeholder="jhonsmith@gmail.com">
+                    <input type="email" name="email" class="form--control" placeholder="jhonsmith@gmail.com" required>
                 </div>
                 <div class="col-xl-6 col-lg-6 form-group">
                     <label>Your Phone</label>
-                    <input type="text" name="number" class="form--control" placeholder="+1 (900) 696 3600" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" />
+                    <input type="text" name="phone" class="form--control" placeholder="+1 (900) 696 3600" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" required/>
                 </div>
                 <div class="col-xl-6 col-lg-6 form-group">
                     <label>Select Subject</label>
                     <div class="contact-select">
-                        <select class="form--control">
+                        <select class="form--control" name="subject" required>
                             <option value="1">Web Development</option>
                             <option value="2">Web Design</option>
                             <option value="3">Digital Marketing</option>
@@ -286,7 +278,7 @@
                 </div>
                 <div class="col-xl-12 col-lg-12 form-group">
                     <label>Write Message</label>
-                    <textarea name="message" class="form--control" placeholder="Write Here ..."></textarea>
+                    <textarea name="message" class="form--control" placeholder="Write Here ..." required></textarea>
                 </div>
                 <div class="col-xl-12 col-lg-12 form-group text-center">
                     <button type="submit" class="btn--base mt-20">Send Now <i class="fas fa-arrow-right ml-2"></i></button>
@@ -304,7 +296,7 @@
     Start Map
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <div class="map-area">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3070.1899657893728!2d90.42380431666383!3d23.779746865573756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7499f257eab%3A0xe6b4b9eacea70f4a!2sManama+Tower!5e0!3m2!1sen!2sbd!4v1561542597668!5m2!1sen!2sbd" style="border:0" allowfullscreen></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d738.1893460911941!2d23.826652981574604!3d42.26235339543919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1703402215139!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     End Map
@@ -432,8 +424,29 @@
 <script src="assets/js/TweenMax.min.js"></script>
 <!-- main -->
 <script src="assets/js/main.js"></script>
-
-
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init('HS6ctKTsur8ehVzWW');
+        })();
+    </script>
+    <script type="text/javascript">
+         console.log('load'); //fixme
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                console.log('sent'); //fixme
+                event.preventDefault();
+                // these IDs from the previous steps
+                emailjs.sendForm('service_j0v1vbp', 'template_bh30zm4', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
 </body>
 
 <!-- Mirrored from themeim.com/demo/softim/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 23 Dec 2023 21:00:20 GMT -->
