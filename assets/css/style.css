@@ -12453,6 +12453,7 @@ div[class*=col]:nth-of-type(4n + 4) .process-item .process-icon-area .process-ic
 }
 .contact-section.two .contact-thumb img {
   width: 100%;
+  border-radius: 20px;
 }
 .contact-section.two .contact-form-header {
   display: -webkit-box;
